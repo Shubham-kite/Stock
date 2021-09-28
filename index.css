@@ -1,0 +1,102 @@
+body{
+    background-color:#223046ff;
+    /*background-image: url("./wp.jpg");*/
+    background-repeat: no-repeat;
+    color: white;
+    margin:0px;
+}
+/* for the navigation*/
+.logo
+{
+    font-family: cursive;
+}
+header{
+    color:white;
+    padding:0px,20px;
+    border-radius:7px;
+    box-shadow: 5px 3px 7px black;
+    height:65px;
+    margin-top:0px;
+}
+header ul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+header ul li{
+    text-align: center;
+    padding:22px;
+    margin-left:-40px;
+}
+header ul li a{
+    text-decoration:none;
+    color:white;
+}
+header ul li a:hover{
+    background-color: rgb(194, 245, 142);
+    padding:12px;
+    font-weight:bold;
+    border-radius:3px;
+}
+.search
+{
+    margin-left:-180px;
+    margin-top:-6px;
+    width:230px;
+    height:25px;
+    border-radius:5px;
+    border-style: 0.3px solid black;
+    padding:12px;
+}
+        /* main containt*/
+.containt{
+    text-align: center;
+    width:70%;
+    min-height:380px;
+    background-color:rgba(230, 239, 243, 0.082);
+    margin-top:4%;
+    margin-left:22%;
+    padding:2%;
+    box-shadow: 5px 3px 5px black;
+    border-radius: 2%;
+}
+.containt:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+.left-scrn
+{
+    width:15%;
+    background-color:rgba(230, 239, 243, 0.082);
+    padding:2%;
+    min-height:380px;
+    box-shadow: 5px 3px 5px black;
+    margin-top:-32%;
+    border-radius: 2%;
+    text-align: center;
+}
+.left-scrn ul {
+    list-style-type: none;
+    
+}
+.left-scrn ul{
+    margin-top: 2%;
+}
+.left-scrn:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* Responsive for the Mobile */
+@media screen and (max-width: 480px) {
+    header{
+        background-color: red;
+    }
+  }
