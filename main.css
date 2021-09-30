@@ -4,6 +4,11 @@ body{
     color: white;
     margin:0px;
 }
+canvas
+{
+    width: 100%;
+    height: 100%;
+}
 /* for the navigation*/
 .logo
 {
@@ -53,9 +58,9 @@ header ul li a:hover{
     width:45%;
     min-height:380px;
     background-color:rgba(230, 239, 243, 0.082);
-    background-image:url("./wp.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+  /*  background-image:url("./wp.jpg");*/
+   /* background-repeat:no-repeat;*/
+   /* background-size:cover;*/
     margin-top:4%;
     margin-left:22%;
     padding:2%;
